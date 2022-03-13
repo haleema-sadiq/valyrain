@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.20)
+set(CMAKE_C_COMPILER cc)
+set(CMAKE_C_FLAGS "-Wall -g")
+project(ccode)
+add_executable(ccode bubble.c)
